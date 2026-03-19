@@ -1,0 +1,55 @@
+# Contributing
+
+Thank you for your interest in contributing to n8n-nodes-revenium-anthropic!
+
+## Getting Started
+
+1. Fork the repository and create a feature branch
+2. Make your changes following existing code patterns
+3. Test your changes
+4. Submit a pull request with a clear description
+
+## What to Contribute
+
+- Bug fixes and improvements
+- Documentation updates
+- Test coverage improvements
+- Performance optimizations
+
+## Guidelines
+
+- Follow the existing code style
+- Include tests for new functionality when applicable
+- Update documentation if needed
+- Keep changes focused and atomic
+
+## Development Setup
+
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/revenium-middleware-anthropic-n8n.git
+cd revenium-middleware-anthropic-n8n
+
+# Install dependencies
+npm install
+
+# Build the project
+npm run build
+
+# Run tests
+npm test
+```
+
+## Questions?
+
+- Check existing issues first
+- For bugs: Create an issue with reproduction steps
+- For questions: Email support@revenium.io
+
+## Security
+
+For security vulnerabilities, please follow our [Security Policy](https://github.com/revenium/revenium-middleware-anthropic-n8n/blob/HEAD/SECURITY.md) - do not create public issues.
+
+## License
+
+By contributing, you agree your contributions will be licensed under the same license as this project.
