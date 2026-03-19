@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "lib": ["es2019"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "removeComments": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "credentials/**/*",
+    "nodes/**/*",
+    "src/index.ts",
+    "src/tool-context.ts",
+    "src/tool-tracker.ts",
+    "src/types/**/*",
+    "src/utils/index.ts",
+    "src/utils/logger.ts",
+    "src/utils/url-builder.ts",
+    "src/utils/prompt-extraction.ts",
+    "src/utils/validation/**/*",
+    "src/utils/error-handling/**/*",
+    "src/constants/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
